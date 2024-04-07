@@ -25,7 +25,7 @@
     border:0;
     height:1px;
     background:#ccc;
-    width:5%;
+    width:60%;
 }
 .subscribed-list h3{
 font-size:13px;
@@ -42,4 +42,11 @@ color:#5a5a5a;
 }
 .small-sidebar p{
     display:none;
+}
+.small-sidebar h3{
+    display:none;
+}
+.small-sidebar hr{
+    width: 50%;
+    margin-bottom:25px;
 }
