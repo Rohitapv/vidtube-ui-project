@@ -14,10 +14,10 @@ import simon from '../../assets/simon.png'
 import tom from '../../assets/tom.png'
 import megan from '../../assets/megan.png'
 import cameron from '../../assets/cameron.png'
-const Sidebar = () => {
+const Sidebar = ({sidebar} ) => {
     return (
-        <div className='sidebar'>
-            <div className="sortcut-links">
+        <div className={`sidebar ${sidebar?"":"small-sidebar"}`}>
+            <div className="shortcut-links">
                 <div className="sidelinks">
                     <img src={home} alt="" /><p>Home</p>
                 </div>
@@ -46,25 +46,26 @@ const Sidebar = () => {
                     <img src={news} alt="" /><p>news</p>
                 </div>
                 <hr />
-                <div className="subscribed-list">
+                
+            </div>
+            <div className="subscribed-list">
                     <h3>Subscribed</h3>
-                    <div className="side-link">
+                    <div className="sidelinks">
                         <img src={jack} alt="" /><p>sdggmshc</p>
                     </div>
-                    <div className="side-link">
+                    <div className="sidelinks">
                         <img src={simon} alt="" /><p>odggmshc</p>
                     </div>
-                    <div className="side-link">
+                    <div className="sidelinks">
                         <img src={tom} alt="" /><p>ddggmshc</p>
                     </div>
-                    <div className="side-link">
+                    <div className="sidelinks">
                         <img src={megan} alt="" /><p>okggmshc</p>
                     </div>
-                    <div className="side-link">
+                    <div className="sidelinks">
                         <img src={cameron} alt="" /><p>sdfgfgggmshc</p>
                     </div>
                 </div>
-            </div>
         </div >
     )
 }
