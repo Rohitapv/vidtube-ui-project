@@ -46,6 +46,24 @@ const Sidebar = () => {
                     <img src={news} alt="" /><p>news</p>
                 </div>
                 <hr />
+                <div className="subscribed-list">
+                    <h3>Subscribed</h3>
+                    <div className="side-link">
+                        <img src={jack} alt="" /><p>sdggmshc</p>
+                    </div>
+                    <div className="side-link">
+                        <img src={simon} alt="" /><p>odggmshc</p>
+                    </div>
+                    <div className="side-link">
+                        <img src={tom} alt="" /><p>ddggmshc</p>
+                    </div>
+                    <div className="side-link">
+                        <img src={megan} alt="" /><p>okggmshc</p>
+                    </div>
+                    <div className="side-link">
+                        <img src={cameron} alt="" /><p>sdfgfgggmshc</p>
+                    </div>
+                </div>
             </div>
         </div >
     )
