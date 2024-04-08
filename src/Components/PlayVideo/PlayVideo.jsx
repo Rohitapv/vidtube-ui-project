@@ -35,6 +35,46 @@ const PlayVideo = () => {
                 <p>fgdshgdghjhfh</p>
                 <hr />
                 <h4> 130 comments</h4>
+                <div className="comment">
+                    <img src={user_profile} alt="" />
+                    <div>jack nhchsd <span>1 day ago</span> </div>
+                    <p>commented comment</p>
+                    <div className="comment-action">
+                        <img src={like} alt="" />
+                        <span>244</span>
+                        <img src={dislike} alt="" />
+                    </div>
+                </div>
+                <div className="comment">
+                    <img src={user_profile} alt="" />
+                    <div>jack nhchsd <span>1 day ago</span> </div>
+                    <p>commented comment</p>
+                    <div className="comment-action">
+                        <img src={like} alt="" />
+                        <span>244</span>
+                        <img src={dislike} alt="" />
+                    </div>
+                </div>
+                <div className="comment">
+                    <img src={user_profile} alt="" />
+                    <div>jack nhchsd <span>1 day ago</span> </div>
+                    <p>commented comment</p>
+                    <div className="comment-action">
+                        <img src={like} alt="" />
+                        <span>244</span>
+                        <img src={dislike} alt="" />
+                    </div>
+                </div>
+                <div className="comment">
+                    <img src={user_profile} alt="" />
+                    <div>jack nhchsd <span>1 day ago</span> </div>
+                    <p>commented comment</p>
+                    <div className="comment-action">
+                        <img src={like} alt="" />
+                        <span>244</span>
+                        <img src={dislike} alt="" />
+                    </div>
+                </div>
             </div>
         </div>
     )
